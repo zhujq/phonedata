@@ -49,8 +49,8 @@ var (
 func init() {
 	dir := os.Getenv("PHONE_DATA_DIR")
 	if dir == "" {
-		_, fulleFilename, _, _ := runtime.Caller(0)
-		dir = path.Dir(fulleFilename)
+	//	_, fulleFilename, _, _ := runtime.Caller(0)
+		dir = "./"
 	}
 	var err error
 	content, err = ioutil.ReadFile(path.Join(dir, PHONE_DAT))
