@@ -21,7 +21,7 @@ const (
 	CHAR_LEN           = 1
 	HEAD_LENGTH        = 8
 	PHONE_INDEX_LENGTH = 9
-	PHONE_DAT          = "phone.dat"
+	PHONE_DAT          = "telephone.dat"
 )
 
 type PhoneRecord struct {
